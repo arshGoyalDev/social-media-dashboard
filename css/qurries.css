@@ -1,4 +1,4 @@
-:root{
+:root {
   /* Primary */
   --lime-green: hsl(163, 72%, 41%);
   --bright-red: hsl(356, 69%, 56%);
@@ -17,147 +17,147 @@
   /* Neutral */
 
   /* Dark Theme */
-  --very-dark-blue: hsl(230, 17%, 14%);             /* background */
-  --very-dark-blue-top: hsl(232, 19%, 15%);             /* Top BG Pattern */
-  --dark-desaturated-blue: hsl(228, 28%, 20%);      /* card bg */
-  --desaturated-blue: hsl(228, 34%, 66%);           /* text */
-  --white: hsl(0, 0%, 100%);                        /* text */
+  --very-dark-blue: hsl(230, 17%, 14%); /* background */
+  --very-dark-blue-top: hsl(232, 19%, 15%); /* Top BG Pattern */
+  --dark-desaturated-blue: hsl(228, 28%, 20%); /* card bg */
+  --desaturated-blue: hsl(228, 34%, 66%); /* text */
+  --white: hsl(0, 0%, 100%); /* text */
 
   /* Light Theme */
-  --white: hsl(0, 0%, 100%);                        /* bg */
-  --very-pale-blue: hsl(225, 100%, 98%);            /* top bg pattern */
-  --light-grayish-blue: hsl(227, 47%, 96%);         /* card bg */ 
-  --dark-grayish-blue: hsl(228, 12%, 44%);          /* text */
-  --very-dark-blue-text: hsl(230, 17%, 14%);             /* text */
+  --white: hsl(0, 0%, 100%); /* bg */
+  --very-pale-blue: hsl(225, 100%, 98%); /* top bg pattern */
+  --light-grayish-blue: hsl(227, 47%, 96%); /* card bg */
+  --dark-grayish-blue: hsl(228, 12%, 44%); /* text */
+  --very-dark-blue-text: hsl(230, 17%, 14%); /* text */
 }
 
-@media (max-width: 500px){
-  body::before{
+@media (max-width: 500px) {
+  body::before {
     height: 340px;
   }
 }
 @media (min-width: 700px) {
-  header{
+  header {
     padding: 30px 80px 0 100px;
   }
-  .followers-track{
+  .followers-track {
     padding: 0 100px;
   }
-  .heading-2{
+  .heading-2 {
     padding-left: 100px;
     margin-top: 50px;
   }
-  .today-overview-container{
+  .today-overview-container {
     padding: 0 100px;
   }
 }
-@media (min-width: 1000px){
-  header{
+@media (min-width: 1000px) {
+  header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 50px 80px 0 80px;
   }
-  header hr{
+  header hr {
     display: none;
   }
-  .toggle-btn{
+  .toggle-btn {
     margin-right: 10px;
   }
 
-  .followers-track{
+  .followers-track {
     padding: 0 80px;
     justify-content: space-between;
     margin-top: 70px;
   }
-  .social-media-card{
+  .social-media-card {
     width: 48%;
     margin-bottom: 40px;
   }
-  .social-media-card:not(:first-child){
+  .social-media-card:not(:first-child) {
     margin-top: 0;
   }
 
-  .heading-2{
+  .heading-2 {
     padding-left: 80px;
   }
 
-  .today-overview-container{
+  .today-overview-container {
     justify-content: space-between;
     padding: 0 80px;
   }
-  .card:not(:last-child){
+  .card:not(:last-child) {
     margin-bottom: 30px;
   }
-  .card{
+  .card {
     width: 43.5%;
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 1250px) {
-  .social-media-card{
+  .social-media-card {
     width: 23%;
     margin-bottom: 40px;
   }
 
-  .heading-2{
+  .heading-2 {
     margin-top: 0px;
   }
 
-  .today-overview-container{
+  .today-overview-container {
     margin-bottom: 0;
   }
-  .card{
+  .card {
     width: 19.5%;
-  } 
+  }
 }
 
 @media (min-width: 1350px) {
-  header{
-    padding: 60px 100px 0 100px
+  header {
+    padding: 60px 100px 0 100px;
   }
-  .heading-2{
+  .heading-2 {
     padding-left: 100px;
     margin-bottom: 20px;
   }
-  .followers-track{
+  .followers-track {
     padding: 0 100px;
     margin-top: 50px;
   }
-  .social-media-card{
+  .social-media-card {
     margin-bottom: 30px;
   }
-  .today-overview-container{
+  .today-overview-container {
     padding: 0 100px;
   }
-  .card{
+  .card {
     width: 20%;
   }
 }
 
 @media (min-width: 1600px) {
-  header{
+  header {
     padding: 60px 120px 0 120px;
   }
 
-  .heading-2{
+  .heading-2 {
     margin-top: 10px;
     margin-bottom: 40px;
     padding-left: 120px;
   }
 
-  .followers-track{
+  .followers-track {
     padding: 0 120px;
     justify-content: space-between;
     margin-top: 70px;
   }
 
-  .today-overview-container{
+  .today-overview-container {
     justify-content: space-between;
     padding: 0 120px;
   }
-  .card{
+  .card {
     width: 20.7%;
-  } 
+  }
 }
