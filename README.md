@@ -12,11 +12,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Toggle color theme to their preference
 
-### Links
-
-- [Solution URL](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-oXOQ5pVJf)
-- [Live Site URL](https://social-media-dashboard-developingweb.vercel.app)
-
 ## Built with
 
 - Semantic HTML5 markup
